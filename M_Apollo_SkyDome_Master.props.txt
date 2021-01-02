@@ -1,0 +1,417 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Packages/Fortress_Sky/SkyDome/Master/T_CloudWhisp_Pattern_04.T_CloudWhisp_Pattern_04'
+    ReferencedTextures[1] = Texture2D'/Game/Packages/Fortress_Sky/SkyDome/Master/T_SkyDome_CloudShapes.T_SkyDome_CloudShapes'
+    ReferencedTextures[2] = Texture2D'/Game/Packages/Fortress_Sky/SkyDome/Master/T_SkyDome_CloudShapesSmall.T_SkyDome_CloudShapesSmall'
+    ReferencedTextures[3] = Texture2D'/Game/Packages/Fortress_Sky/SkyDome/Master/T_SkyDome_StarCloudMask.T_SkyDome_StarCloudMask'
+    ReferencedTextures[4] = Texture2D'/Game/Packages/Fortress_Sky/SkyDome/Master/T_SunMoon.T_SunMoon'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[57] =
+                {
+                    ParameterInfos[0] = { Name=Cloud_AerialPerspectiveFactor }
+                    ParameterInfos[1] = { Name=SunMoon-GlowMod }
+                    ParameterInfos[2] = { Name=Detail-LerpA-ModWispy1 }
+                    ParameterInfos[3] = { Name=Sun-SharpnessMod }
+                    ParameterInfos[4] = { Name=DetailCloudShape-Power }
+                    ParameterInfos[5] = { Name=Wispy2-Tile }
+                    ParameterInfos[6] = { Name=OpacityLerpAmount }
+                    ParameterInfos[7] = { Name=MainCloud-OpacityMaskPower }
+                    ParameterInfos[8] = { Name=StarBrightness }
+                    ParameterInfos[9] = { Name=EpicCloudsPannerSpeed }
+                    ParameterInfos[10] = { Name=Detail-LerpB-ModWispy1 }
+                    ParameterInfos[11] = { Name=MOBILE-MainCloudShape-Power }
+                    ParameterInfos[12] = { Name=LightDiskMaxLuminance0 }
+                    ParameterInfos[13] = { Name=Moon-Amount }
+                    ParameterInfos[14] = { Name=SunMoon-AtmosphereMaskRadius }
+                    ParameterInfos[15] = { Name=StarMaskSpeed }
+                    ParameterInfos[16] = { Name=CloudBrightness }
+                    ParameterInfos[17] = { Name=Cloud-SpeedMaster }
+                    ParameterInfos[18] = { Name=Cloud-DetailCloudTile }
+                    ParameterInfos[19] = { Name=MainCloud-OpacityMaskMod }
+                    ParameterInfos[20] = { Name=StarTile }
+                    ParameterInfos[21] = { Name=SwirlCurlSpeed }
+                    ParameterInfos[22] = { Name=SunMoon-GlowPower }
+                    ParameterInfos[23] = { Name=Cloud-MainCloudTile }
+                    ParameterInfos[24] = { Name=SwirlTile }
+                    ParameterInfos[25] = { Name=Cloud-DetailCloudSwirl }
+                    ParameterInfos[26] = { Name=Cloud-DetailCloudSpeed }
+                    ParameterInfos[27] = { Name=DetailCloudShape-NegOne-to-One }
+                    ParameterInfos[28] = { Name=Fraction }
+                    ParameterInfos[29] = { Name=ScatteringCoeff }
+                    ParameterInfos[30] = { Name=CloudOpacityMod }
+                    ParameterInfos[31] = { Name=Sun-Amount }
+                    ParameterInfos[32] = { Name=DepthFadeJuniorEvent }
+                    ParameterInfos[33] = { Name=JuniorFadeFalloff }
+                    ParameterInfos[34] = { Name=CloudHeight }
+                    ParameterInfos[35] = { Name=1-FinalCloudOpacityBoost }
+                    ParameterInfos[36] = { Name=SunMoon-UVErrorMaskMod }
+                    ParameterInfos[37] = { Name=StarPower }
+                    ParameterInfos[38] = { Name=AbsorbtionCoeff }
+                    ParameterInfos[39] = { Name=Wispy1-Tile }
+                    ParameterInfos[40] = { Name=MainCloudShape-Mod }
+                    ParameterInfos[41] = { Name=Sun-SharpnessPower }
+                    ParameterInfos[42] = { Name=SunMoon-Scale }
+                    ParameterInfos[43] = { Name=SwirlPanSpeed }
+                    ParameterInfos[44] = { Name=SwirlAmount }
+                    ParameterInfos[45] = { Name=FakeNightLightRange }
+                    ParameterInfos[46] = { Name=SunMoon-UVErrorMaskAdd }
+                    ParameterInfos[47] = { Name=SunScale }
+                    ParameterInfos[48] = { Name=MainCloudShape-Power }
+                    ParameterInfos[49] = { Name=Moon-PreBlendOffset }
+                    ParameterInfos[50] = { Name=Wispy2-Speed }
+                    ParameterInfos[51] = { Name=Wispy1-Speed }
+                    ParameterInfos[52] = { Name=CloudOpacityAdd }
+                    ParameterInfos[53] = { Name=Cloud-MainCloudSpeed }
+                    ParameterInfos[54] = { Name=Cloud-TileMaster }
+                    ParameterInfos[55] = { Name=DetailCloudShape-Mod }
+                    ParameterInfos[56] = { Name=StarMaskTile }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=FakeNightLight }
+                    ParameterInfos[1] = { Name=SunMoon-GlowColor }
+                    ParameterInfos[2] = { Name=MOBILE-CloudsColor }
+                    ParameterInfos[3] = { Name=SunDiskColorMult }
+                    ParameterInfos[4] = { Name=DirectionJuniorFade }
+                    ParameterInfos[5] = { Name=SunMoon-Color }
+                    ParameterInfos[6] = { Name=Cloud-NormalsMod }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=CloudDetailTexture }
+                    ParameterInfos[1] = { Name=MainCloudTexture }
+                    ParameterInfos[2] = { Name=CloudandStars }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[57] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0
+            ScalarValues[2] = 1
+            ScalarValues[3] = 5e+08
+            ScalarValues[4] = 1
+            ScalarValues[5] = 8
+            ScalarValues[6] = 0.6
+            ScalarValues[7] = 4
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0.00235
+            ScalarValues[10] = 0
+            ScalarValues[11] = 4
+            ScalarValues[12] = 100
+            ScalarValues[13] = 0
+            ScalarValues[14] = 4.20824e+06
+            ScalarValues[15] = 0.05
+            ScalarValues[16] = 1
+            ScalarValues[17] = 1
+            ScalarValues[18] = 6.5
+            ScalarValues[19] = 2
+            ScalarValues[20] = 7
+            ScalarValues[21] = 1.5
+            ScalarValues[22] = 1
+            ScalarValues[23] = 14
+            ScalarValues[24] = 30
+            ScalarValues[25] = 0.3
+            ScalarValues[26] = -0.003
+            ScalarValues[27] = 0.2
+            ScalarValues[28] = 0
+            ScalarValues[29] = 1
+            ScalarValues[30] = 0.2
+            ScalarValues[31] = 40
+            ScalarValues[32] = 5000
+            ScalarValues[33] = 1.39387
+            ScalarValues[34] = 1
+            ScalarValues[35] = 3
+            ScalarValues[36] = 50
+            ScalarValues[37] = 3
+            ScalarValues[38] = 0.1
+            ScalarValues[39] = 15
+            ScalarValues[40] = 1
+            ScalarValues[41] = 150
+            ScalarValues[42] = 250000
+            ScalarValues[43] = 0.05
+            ScalarValues[44] = 0.4
+            ScalarValues[45] = 0.025
+            ScalarValues[46] = -20
+            ScalarValues[47] = 700000
+            ScalarValues[48] = 1
+            ScalarValues[49] = -100
+            ScalarValues[50] = 0.0007
+            ScalarValues[51] = 0.001
+            ScalarValues[52] = -3
+            ScalarValues[53] = 0.02
+            ScalarValues[54] = 1
+            ScalarValues[55] = 1
+            ScalarValues[56] = 15
+        }
+        VectorValues[7] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=1, G=0.950539, B=0.9, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=1, G=1, B=1, A=1 }
+            VectorValues[4] = { R=-0.291397, G=1, B=-0.419048, A=1 }
+            VectorValues[5] = { R=0.1321, G=0.202108, B=0.208333, A=1 }
+            VectorValues[6] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Packages/Fortress_Sky/SkyDome/Master/T_SkyDome_CloudShapesSmall.T_SkyDome_CloudShapesSmall'
+            TextureValues[1] = Texture2D'/Game/Packages/Fortress_Sky/SkyDome/Master/T_SkyDome_CloudShapes.T_SkyDome_CloudShapes'
+            TextureValues[2] = Texture2D'/Game/Packages/Fortress_Sky/SkyDome/Master/T_SkyDome_StarCloudMask.T_SkyDome_StarCloudMask'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Packages/Fortress_Sky/SkyDome/Master/T_SkyDome_StarCloudMask.T_SkyDome_StarCloudMask'
+        ReferencedTextures[1] = Texture2D'/Game/Packages/Fortress_Sky/SkyDome/Master/T_SkyDome_CloudShapes.T_SkyDome_CloudShapes'
+        ReferencedTextures[2] = Texture2D'/Game/Packages/Fortress_Sky/SkyDome/Master/T_SkyDome_CloudShapesSmall.T_SkyDome_CloudShapesSmall'
+        ReferencedTextures[3] = Texture2D'/Game/Packages/Fortress_Sky/SkyDome/Master/T_SunMoon.T_SunMoon'
+        ReferencedTextures[4] = Texture2D'/Game/Packages/Fortress_Sky/SkyDome/Master/T_CloudWhisp_Pattern_04.T_CloudWhisp_Pattern_04'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Packages/Fortress_Sky/SkyDome/Master/T_SkyDome_CloudShapesSmall.T_SkyDome_CloudShapesSmall'
+        Name = CloudDetailTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Packages/Fortress_Sky/SkyDome/Master/T_SkyDome_CloudShapes.T_SkyDome_CloudShapes'
+        Name = MainCloudTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Packages/Fortress_Sky/SkyDome/Master/T_SkyDome_StarCloudMask.T_SkyDome_StarCloudMask'
+        Name = CloudandStars
+        Group = None
+    }
+}
+CollectedScalarParameters[57] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 1
+        Name = Cloud_AerialPerspectiveFactor
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=0, Name=SunMoon-GlowMod, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Detail-LerpA-ModWispy1, Group=None }
+    CollectedScalarParameters[3] = { Value=5e+08, Name=Sun-SharpnessMod, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=DetailCloudShape-Power, Group=None }
+    CollectedScalarParameters[5] = { Value=8, Name=Wispy2-Tile, Group=None }
+    CollectedScalarParameters[6] = { Value=0.6, Name=OpacityLerpAmount, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 4
+        Name = MainCloud-OpacityMaskPower
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=0, Name=StarBrightness, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0.00235
+        Name = EpicCloudsPannerSpeed
+        Group = None
+    }
+    CollectedScalarParameters[10] = { Value=0, Name=Detail-LerpB-ModWispy1, Group=None }
+    CollectedScalarParameters[11] =
+    {
+        Value = 4
+        Name = MOBILE-MainCloudShape-Power
+        Group = None
+    }
+    CollectedScalarParameters[12] =
+    {
+        Value = 100
+        Name = LightDiskMaxLuminance0
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=0, Name=Moon-Amount, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 4.20824e+06
+        Name = SunMoon-AtmosphereMaskRadius
+        Group = None
+    }
+    CollectedScalarParameters[15] = { Value=0.05, Name=StarMaskSpeed, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=CloudBrightness, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=Cloud-SpeedMaster, Group=None }
+    CollectedScalarParameters[18] =
+    {
+        Value = 6.5
+        Name = Cloud-DetailCloudTile
+        Group = None
+    }
+    CollectedScalarParameters[19] =
+    {
+        Value = 2
+        Name = MainCloud-OpacityMaskMod
+        Group = None
+    }
+    CollectedScalarParameters[20] = { Value=7, Name=StarTile, Group=None }
+    CollectedScalarParameters[21] = { Value=1.5, Name=SwirlCurlSpeed, Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=SunMoon-GlowPower, Group=None }
+    CollectedScalarParameters[23] = { Value=14, Name=Cloud-MainCloudTile, Group=None }
+    CollectedScalarParameters[24] = { Value=30, Name=SwirlTile, Group=None }
+    CollectedScalarParameters[25] =
+    {
+        Value = 0.3
+        Name = Cloud-DetailCloudSwirl
+        Group = None
+    }
+    CollectedScalarParameters[26] =
+    {
+        Value = -0.003
+        Name = Cloud-DetailCloudSpeed
+        Group = None
+    }
+    CollectedScalarParameters[27] =
+    {
+        Value = 0.2
+        Name = DetailCloudShape-NegOne-to-One
+        Group = None
+    }
+    CollectedScalarParameters[28] = { Value=0, Name=Fraction, Group=None }
+    CollectedScalarParameters[29] = { Value=1, Name=ScatteringCoeff, Group=None }
+    CollectedScalarParameters[30] = { Value=0.2, Name=CloudOpacityMod, Group=None }
+    CollectedScalarParameters[31] = { Value=40, Name=Sun-Amount, Group=None }
+    CollectedScalarParameters[32] =
+    {
+        Value = 5000
+        Name = DepthFadeJuniorEvent
+        Group = None
+    }
+    CollectedScalarParameters[33] =
+    {
+        Value = 1.39387
+        Name = JuniorFadeFalloff
+        Group = None
+    }
+    CollectedScalarParameters[34] = { Value=1, Name=CloudHeight, Group=None }
+    CollectedScalarParameters[35] =
+    {
+        Value = 3
+        Name = 1-FinalCloudOpacityBoost
+        Group = None
+    }
+    CollectedScalarParameters[36] =
+    {
+        Value = 50
+        Name = SunMoon-UVErrorMaskMod
+        Group = None
+    }
+    CollectedScalarParameters[37] = { Value=3, Name=StarPower, Group=None }
+    CollectedScalarParameters[38] = { Value=0.1, Name=AbsorbtionCoeff, Group=None }
+    CollectedScalarParameters[39] = { Value=15, Name=Wispy1-Tile, Group=None }
+    CollectedScalarParameters[40] = { Value=1, Name=MainCloudShape-Mod, Group=None }
+    CollectedScalarParameters[41] = { Value=150, Name=Sun-SharpnessPower, Group=None }
+    CollectedScalarParameters[42] = { Value=250000, Name=SunMoon-Scale, Group=None }
+    CollectedScalarParameters[43] = { Value=0.05, Name=SwirlPanSpeed, Group=None }
+    CollectedScalarParameters[44] = { Value=0.4, Name=SwirlAmount, Group=None }
+    CollectedScalarParameters[45] =
+    {
+        Value = 0.025
+        Name = FakeNightLightRange
+        Group = None
+    }
+    CollectedScalarParameters[46] =
+    {
+        Value = -20
+        Name = SunMoon-UVErrorMaskAdd
+        Group = None
+    }
+    CollectedScalarParameters[47] = { Value=700000, Name=SunScale, Group=None }
+    CollectedScalarParameters[48] = { Value=1, Name=MainCloudShape-Power, Group=None }
+    CollectedScalarParameters[49] = { Value=-100, Name=Moon-PreBlendOffset, Group=None }
+    CollectedScalarParameters[50] = { Value=0.0007, Name=Wispy2-Speed, Group=None }
+    CollectedScalarParameters[51] = { Value=0.001, Name=Wispy1-Speed, Group=None }
+    CollectedScalarParameters[52] = { Value=-3, Name=CloudOpacityAdd, Group=None }
+    CollectedScalarParameters[53] =
+    {
+        Value = 0.02
+        Name = Cloud-MainCloudSpeed
+        Group = None
+    }
+    CollectedScalarParameters[54] = { Value=1, Name=Cloud-TileMaster, Group=None }
+    CollectedScalarParameters[55] = { Value=1, Name=DetailCloudShape-Mod, Group=None }
+    CollectedScalarParameters[56] = { Value=15, Name=StarMaskTile, Group=None }
+}
+CollectedVectorParameters[7] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = FakeNightLight
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.950539, B=0.9, A=1 }
+        Name = SunMoon-GlowColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = MOBILE-CloudsColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = SunDiskColorMult
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=-0.291397, G=1, B=-0.419048, A=1 }
+        Name = DirectionJuniorFade
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.1321, G=0.202108, B=0.208333, A=1 }
+        Name = SunMoon-Color
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Cloud-NormalsMod
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
